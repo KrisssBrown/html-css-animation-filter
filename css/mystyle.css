@@ -1,0 +1,151 @@
+.ex-1-square{
+    transition: background-color 5s;
+}
+
+.ex-1-square:hover{
+    background-color: red;
+}
+
+/* ************************************ */
+
+.ex-2-square{
+    transition: width 2s ,height 2s;
+}
+
+.ex-2-square:active{
+    width: 300px;
+    height: 200px;
+    aspect-ratio: 16/9;
+}
+
+/* ************************************ */
+
+.ex-3-square{
+    transition: border-radius 5s;
+}
+
+.ex-3-square:hover{
+    border-radius: 999px;
+}
+
+/* ************************************ */
+
+.ex-4-square{
+    transition: opacity 2s;
+}
+
+.ex-4-square:hover{
+    opacity: 0;
+}
+
+/* ************************************ */
+
+.ex-5-square{
+    transition: width 2s ,height 2s;
+}
+
+.ex-5-square:hover{
+    width: 200px;
+    height: 200px;
+}
+
+.ex-5-square:active{
+    width: 20px;
+    height: 20px
+}
+
+/* ************************************ */
+
+.ex-6-img{
+    filter: grayscale(0);
+    transition: grayscale 3s;
+}
+
+.ex-6-img:hover{
+    filter: grayscale(1);
+    
+}
+
+/* ************************************ */
+
+.ex-7-img{
+    filter: grayscale(0);
+    transition: all 3s ease;
+}
+
+.ex-7-img:hover{
+    filter: grayscale(1);
+    
+}
+
+/* ************************************ */
+
+.ex-8-img{
+    filter: grayscale(0);
+    transition: all 3s ease;
+}
+
+.ex-8-img:hover{
+    filter: grayscale(1);
+    border-radius: 20px;    
+}
+
+/* ************************************ */
+
+.ex-9-img{
+    filter: grayscale(0);
+    transition: all 3s ease;
+}
+
+.ex-9-img:hover{
+    filter: grayscale(1);
+    border-radius: 20px; 
+    width: 300px;
+    height: 200px;   
+    aspect-ratio: 16/9;
+
+}
+
+/* ************************************ */
+
+.ex-10-icon{
+ animation: spin 1s linear infinite   
+}
+@keyframes spin {
+    0% {
+        transform: rotate(360deg);
+    }
+}
+
+/* ************************************ */
+
+.ex-11-icon:hover{
+    animation: spinALittleBit 3s linear;
+}
+
+    @keyframes spinALittleBit {
+        0% {
+                transform: rotate(0);
+            }
+
+        75%{
+                transform: rotate(270deg)
+            }
+        
+        100%{
+                transform: rotate(0)
+                }    
+    }
+
+/* ************************************ */
+
+/* .ex-12-button:hover .ex-12-top-white{
+    animation: movetopwhite 1s alternate-reverse;
+}
+
+@keyframes movetopwhite{
+
+    0%{
+        transform: translateX();
+    }
+} */
